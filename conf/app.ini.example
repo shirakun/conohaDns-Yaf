@@ -1,0 +1,20 @@
+; このファイルを"app.ini"にコピーする
+; あなたの配置情報を記入または修正します。
+; それから使うことができます。
+[product]
+application.directory = APP_PATH
+
+;サイト名
+webname = このはDNS
+
+;エラーページに戻るタイプ(使えない)
+response.type = html
+
+;管理パネルのアカウントとパスワード(このプログラム)
+admin.user = admin
+admin.password = 123456
+
+;あなたのconohaのAPI情報
+conoha.username = gncu12345678
+conoha.password = 12345678
+conoha.tenant_id = 468171c825c02408cc99935447c785a5
