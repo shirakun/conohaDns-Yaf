@@ -148,6 +148,7 @@
                                                 <option value="MX">MX</option>
                                                 <!-- <option value="SRV">SRV</option> -->
                                                 <option value="NS">NS</option>
+                                                <option value="TXT">TXT</option>
                                                 <!-- <option value="PTR">PTR</option> -->
                                             </select>
                                         </td>
@@ -341,7 +342,7 @@
                         $("#myModal").modal()
                         $('.modal-dialog').html(getAlert('success',data.msg));
                         setTimeout("window.location.reload();","3000");
-                        
+
                     }
                     if(data.status == 0){
                     alert(data.msg);
